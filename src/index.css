@@ -1,12 +1,20 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
+    background-color: azure;
+    color: darkblue;
   }
   
   ol, ul {
     padding-left: 30px;
   }
   
+  .Game-button{
+      background-color: white;
+      border-color: darkblue;
+      color: darkblue;
+      margin-bottom: 5px;
+  }
   .board-row:after {
     clear: both;
     content: "";
@@ -19,7 +27,8 @@ body {
   
   .square {
     background: #fff;
-    border: 1px solid #999;
+    border: 1px solid darkblue;
+    color: darkblue;
     float: left;
     font-size: 24px;
     font-weight: bold;
